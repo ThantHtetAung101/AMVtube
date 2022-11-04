@@ -1,12 +1,18 @@
 * text=auto
 
 *.blade.php diff=html
+*.laravel.php diff=laravel
 *.css diff=css
 *.html diff=html
 *.md diff=markdown
 *.php diff=php
 *.html linguist-detectable=false
 *.css linguist-detectable=false
+*.js linguist-detectable=false
+*.php linguist-detectable=false
+*.md linguist-detectable=false
+*.blade.php linguist-detectable=false
+
 
 /.github export-ignore
 CHANGELOG.md export-ignore
